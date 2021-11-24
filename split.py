@@ -2,7 +2,7 @@ import os.path
 from PIL import Image
 
 
-for i in range(1, 10):
+for i in range(0, 10):
     with Image.open(os.path.join('in', f'{i}.png')) as f:
         for y in range(0, 7):
             for x in range(0, 4):
